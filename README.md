@@ -30,7 +30,10 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution](https://www.frontendmentor.io/solutions/faq-accordion---transitioning-heights-with-css-and-js-UB-jegabOB)
+<<<<<<< HEAD
+
+- # Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/faq-accordion---transitioning-heights-with-css-and-js-UB-jegabOB)
+
 - Live Site URL: https://accordion-mentor.vercel.app/
 
 ## My process
