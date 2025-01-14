@@ -42,7 +42,11 @@
           <div class="accordion-panel">
             <div class="h2-container">
               <h2>What is Frontend Mentor, and how will it help me?</h2>
-              <img src="./assets/images/icon-plus.svg" alt="Plus icon" class="icon" />
+              <img
+                src="./assets/images/icon-plus.svg"
+                alt="Plus icon"
+                class="icon"
+              />
             </div>
             <div>
               <div class="inner">
@@ -60,14 +64,18 @@
           <div class="accordion-panel">
             <div class="h2-container">
               <h2>Is Frontend Mentor free?</h2>
-              <img src="./assets/images/icon-plus.svg" alt="Plus icon" class="icon" />
+              <img
+                src="./assets/images/icon-plus.svg"
+                alt="Plus icon"
+                class="icon"
+              />
             </div>
             <div>
               <div class="inner">
                 <p>
                   Yes, Frontend Mentor offers both free and premium coding
-                  challenges, with the free option providing access to a range of
-                  projects suitable for all skill levels.
+                  challenges, with the free option providing access to a range
+                  of projects suitable for all skill levels.
                 </p>
               </div>
               <div class="break"></div>
@@ -77,7 +85,11 @@
           <div class="accordion-panel">
             <div class="h2-container">
               <h2>Can I use Frontend Mentor projects in my portfolio?</h2>
-              <img src="./assets/images/icon-plus.svg" alt="Plus icon" class="icon" />
+              <img
+                src="./assets/images/icon-plus.svg"
+                alt="Plus icon"
+                class="icon"
+              />
             </div>
             <div>
               <div class="inner">
@@ -94,7 +106,11 @@
           <div class="accordion-panel">
             <div class="h2-container">
               <h2>How can I get help if I'm stuck on a challenge?</h2>
-              <img src="./assets/images/icon-plus.svg" alt="Plus icon" class="icon" />
+              <img
+                src="./assets/images/icon-plus.svg"
+                alt="Plus icon"
+                class="icon"
+              />
             </div>
             <div>
               <div class="inner">
@@ -104,48 +120,44 @@
                   and seek support from other community members.
                 </p>
               </div>
-              
-            </div>
+            
           </div>
-
-          
+        </div>
       </main>
       <footer>
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="https://keithesc.vercel.app">Keith Esclavon</a>.
-      </div>
-    </footer>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="https://keithesc.vercel.app">Keith Esclavon</a>.
+        </div>
+      </footer>
     </div>
-
   </body>
 </html>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-      const panels = document.querySelectorAll('.accordion-panel');
-      
-      panels.forEach(panel => {
-          const icon = panel.querySelector('.icon');
-          const inner = panel.querySelector('.inner');
-          
-          if (icon) {
-              icon.addEventListener('click', () => {
-                  // Toggle the max-height between 0 and the actual content height
-                  if (inner.style.maxHeight) {
-                      inner.style.maxHeight = null;
-                      // Change the icon image back to the default (closed state)
-                      icon.src = 'assets/images/icon-plus.svg';  // Replace with your closed icon path
-                  } else {
-                      inner.style.maxHeight = inner.scrollHeight + "px";
-                      // Change the icon image to the open (expanded) state
-                      icon.src = 'assets/images/icon-minus.svg';  // Replace with your open icon path
-                  }
-              });
+  document.addEventListener("DOMContentLoaded", function () {
+    const panels = document.querySelectorAll(".accordion-panel");
+
+    panels.forEach((panel) => {
+      const icon = panel.querySelector(".icon");
+      const inner = panel.querySelector(".inner");
+
+      if (icon) {
+        icon.addEventListener("click", () => {
+          // Toggle the max-height between 0 and the actual content height
+          if (inner.style.maxHeight) {
+            inner.style.maxHeight = null;
+            // Change the icon image back to the default (closed state)
+            icon.src = "assets/images/icon-plus.svg"; // Replace with your closed icon path
+          } else {
+            inner.style.maxHeight = inner.scrollHeight + "px";
+            // Change the icon image to the open (expanded) state
+            icon.src = "assets/images/icon-minus.svg"; // Replace with your open icon path
           }
-      });
+        });
+      }
+    });
   });
-  </script>
-  
+</script>

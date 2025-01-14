@@ -187,10 +187,19 @@ p {
   line-height: 1.35;
 }
 
+/* Add this CSS to your style.css */
+footer {
+  position: fixed; /* Fixes the footer at the bottom */
+  bottom: 0; /* Aligns it to the bottom of the viewport */
+  left: 0; /* Aligns it to the left */
+  right: 0; /* Aligns it to the right */
+  text-align: center; /* Centers the text horizontally */
+  padding: 10px 0; /* Adds some padding for better spacing */
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin-top: 2rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
