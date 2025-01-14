@@ -42,11 +42,11 @@
           <div class="accordion-panel">
             <div class="h2-container">
               <h2>What is Frontend Mentor, and how will it help me?</h2>
-              <img
-                src="./assets/images/icon-plus.svg"
-                alt="Plus icon"
-                class="icon"
-              />
+              <div class="icon">
+                <button>
+                  <img src="./assets/images/icon-plus.svg" alt="Plus icon" />
+                </button>
+              </div>
             </div>
             <div>
               <div class="inner">
@@ -64,11 +64,11 @@
           <div class="accordion-panel">
             <div class="h2-container">
               <h2>Is Frontend Mentor free?</h2>
-              <img
-                src="./assets/images/icon-plus.svg"
-                alt="Plus icon"
-                class="icon"
-              />
+              <div class="icon">
+                <button>
+                  <img src="./assets/images/icon-plus.svg" alt="Plus icon" />
+                </button>
+              </div>
             </div>
             <div>
               <div class="inner">
@@ -85,11 +85,11 @@
           <div class="accordion-panel">
             <div class="h2-container">
               <h2>Can I use Frontend Mentor projects in my portfolio?</h2>
-              <img
-                src="./assets/images/icon-plus.svg"
-                alt="Plus icon"
-                class="icon"
-              />
+              <div class="icon">
+                <button>
+                  <img src="./assets/images/icon-plus.svg" alt="Plus icon" />
+                </button>
+              </div>
             </div>
             <div>
               <div class="inner">
@@ -106,11 +106,11 @@
           <div class="accordion-panel">
             <div class="h2-container">
               <h2>How can I get help if I'm stuck on a challenge?</h2>
-              <img
-                src="./assets/images/icon-plus.svg"
-                alt="Plus icon"
-                class="icon"
-              />
+              <div class="icon">
+                <button>
+                  <img src="./assets/images/icon-plus.svg" alt="Plus icon" />
+                </button>
+              </div>
             </div>
             <div>
               <div class="inner">
@@ -141,7 +141,7 @@
     const panels = document.querySelectorAll(".accordion-panel");
 
     panels.forEach((panel) => {
-      const icon = panel.querySelector(".icon");
+      const icon = panel.querySelector("button");
       const inner = panel.querySelector(".inner");
 
       if (icon) {

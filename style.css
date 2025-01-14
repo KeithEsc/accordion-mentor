@@ -111,6 +111,9 @@ body {
   background-color: var(--light-pink);
   width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 ol,
@@ -145,7 +148,6 @@ table {
 }
 
 .wrapper {
-  height: 100%;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -248,6 +250,9 @@ footer {
 
 .icon {
   cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
 }
 
 body {
@@ -282,4 +287,14 @@ body::after {
   background-position: center;
   z-index: 0;
   pointer-events: none;
+}
+
+.icon button:hover {
+  opacity: 0.8;
+}
+
+.icon button {
+  background: none;
+  cursor: pointer;
+  border: none;
 }
