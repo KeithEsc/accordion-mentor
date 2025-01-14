@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-<<<<<<< HEAD
+
 
 - # Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/faq-accordion---transitioning-heights-with-css-and-js-UB-jegabOB)
 
